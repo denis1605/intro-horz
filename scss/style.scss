@@ -1,0 +1,134 @@
+
+@import "normalize";
+@import "layout";
+@import "slick";
+@import "slick-theme";
+
+
+
+
+body{
+
+}
+.ba-logo {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	z-index: 9999;
+}
+.ba-menu {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	z-index: 9999;
+	& li {
+		float: left;
+		padding-left: 37px;
+
+	}
+
+}
+.ba-menu li:first-child {
+	padding-left: 0;
+}
+.ba-menu li a{
+	display: block;
+	text-decoration: none;
+	color:  #fff;
+	padding-top: 18px;
+	position: relative;
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1170px;
+
+
+
+
+}
+
+.ba-slider {
+
+	&__slide {
+		min-height: 100vh;
+		color:#fff;
+
+		background: 50%;
+		background-size: cover;
+		.ba-container {
+			min-height: 100vh;
+			padding: 100px 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+		}
+
+	}
+
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+
+
+
+	&:hover {
+
+
+	}
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
